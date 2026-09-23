@@ -1,20 +1,30 @@
 body {
   font-family: Arial, sans-serif;
+
   margin: 0;
+
   background-color: #eeeeee;
+
   color: #222;
 }
 
 header {
   background-color: #0066a1;
+
   color: white;
+
   text-align: center;
+
   padding: 20px;
 }
+
 header img {
   width: 70px;
+
   position: absolute;
+
   left: 20px;
+
   top: 15px;
 }
 
@@ -24,8 +34,11 @@ header h1 {
 
 nav a {
   color: white;
+
   text-decoration: none;
+
   margin: 0 10px;
+
   font-weight: bold;
 }
 
@@ -35,13 +48,17 @@ nav a:hover {
 
 main {
   width: 80%;
+
   margin: 30px auto;
 }
 
 section {
   background-color: white;
+
   padding: 20px;
+
   margin-bottom: 20px;
+
   border-radius: 10px;
 }
 
@@ -57,9 +74,26 @@ li {
   margin: 8px 0;
 }
 
+.historicos {
+  background-color: #d9eaf3;
+
+  padding: 20px;
+
+  border-left: 5px solid #0066a1;
+}
+
+.historicos li {
+  font-weight: bold;
+
+  color: #0066a1;
+}
+
 footer {
   background-color: #0066a1;
+
   color: white;
+
   text-align: center;
+
   padding: 15px;
 }
